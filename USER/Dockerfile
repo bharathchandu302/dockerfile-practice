@@ -3,4 +3,4 @@ RUN dnf install nginx -y
 RUN useradd bharathkumar
 
 USER bharathkumar
-CMD ["sleeo","1000"]
+CMD ["sleep","1000"]
